@@ -84,3 +84,5 @@ function chpwd() {
     emulate -L zsh
     ls
 }
+
+function mkcd() { mkdir -p "$@" && cd "$_"; }

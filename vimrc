@@ -14,11 +14,14 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'rodjek/vim-puppet'
 Plugin 'plasticboy/vim-markdown'
 
-" Git plugin
-Plugin 'tpope/vim-fugitive'
-
 " Syntax plugin
 Plugin 'scrooloose/syntastic'
+
+" Vim Airline
+Plugin 'bling/vim-airline'
+
+" Git diff plugin
+Plugin 'airblade/vim-gitgutter'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -51,6 +54,13 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Sets on syntax hilight
 syntax on
+" Set tmp directory to /tmp
 set directory=~/.vim/tmp//,/tmp
-" set textwidth=80
+" Disable the folding behaviour with md files
+let g:vim_markdown_folding_disabled=1
+" Display line number
+set number
+" Display airline
+set laststatus=2
