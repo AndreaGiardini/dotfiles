@@ -64,3 +64,7 @@ let g:vim_markdown_folding_disabled=1
 set number
 " Display airline
 set laststatus=2
+" Indentation
+set tabstop=4
+set shiftwidth=4
+set expandtab
