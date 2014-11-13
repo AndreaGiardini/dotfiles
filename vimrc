@@ -23,6 +23,12 @@ Plugin 'bling/vim-airline'
 " Git diff plugin
 Plugin 'airblade/vim-gitgutter'
 
+" Syntax completition
+Plugin 'Valloric/YouCompleteMe'
+
+" Ctrl-P filesearch
+Plugin 'ctrlpvim/ctrlp.vim'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -68,3 +74,4 @@ set laststatus=2
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set guioptions+=a
