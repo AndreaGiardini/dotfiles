@@ -29,6 +29,10 @@ Plugin 'Valloric/YouCompleteMe'
 " Ctrl-P filesearch
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" Parenthesis completition
+Plugin 'Raimondi/delimitMate'
+
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -75,3 +79,4 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set guioptions+=a
+set backspace=2
