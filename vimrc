@@ -10,10 +10,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" Puppet plugin
-Plugin 'rodjek/vim-puppet'
-Plugin 'plasticboy/vim-markdown'
-
 " Syntax plugin
 Plugin 'scrooloose/syntastic'
 
@@ -31,7 +27,6 @@ Plugin 'ctrlpvim/ctrlp.vim'
 
 " Parenthesis completition
 Plugin 'Raimondi/delimitMate'
-
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
