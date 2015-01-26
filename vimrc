@@ -28,6 +28,20 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " Parenthesis completition
 Plugin 'Raimondi/delimitMate'
 
+" Track the engine.
+Plugin 'SirVer/ultisnips'
+"
+" " Snippets are separated from the engine. Add this if you want them:
+Plugin 'honza/vim-snippets'
+"
+" Trigger configuration. Do not use <tab> if you use
+" https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-k>"
+let g:UltiSnipsJumpForwardTrigger="<c-k>"
+let g:UltiSnipsJumpBackwardTrigger="<s-c-j>"
+
+let g:UltiSnipsSnippetDirectories=['bundle/vim-snippets/snippets']
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -67,6 +81,7 @@ set directory=~/.vim/tmp//,/tmp
 let g:vim_markdown_folding_disabled=1
 " Display line number
 set number
+set relativenumber
 " Display airline
 set laststatus=2
 " Indentation
