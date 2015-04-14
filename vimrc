@@ -22,18 +22,18 @@ Plugin 'airblade/vim-gitgutter'
 " Syntax completition
 Plugin 'Valloric/YouCompleteMe'
 
-" Ctrl-P filesearch
-Plugin 'ctrlpvim/ctrlp.vim'
-
 " Parenthesis completition
 Plugin 'Raimondi/delimitMate'
 
 " Track the engine.
 Plugin 'SirVer/ultisnips'
 "
-" " Snippets are separated from the engine. Add this if you want them:
+" Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
-"
+
+" Latex livepreview
+Plugin 'xuhdev/vim-latex-live-preview'
+
 " Trigger configuration. Do not use <tab> if you use
 " https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<c-k>"
