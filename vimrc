@@ -90,3 +90,4 @@ set shiftwidth=4
 set expandtab
 set guioptions+=a
 set backspace=2
+set colorcolumn=80
