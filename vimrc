@@ -91,3 +91,4 @@ set expandtab
 set guioptions+=a
 set backspace=2
 set colorcolumn=80
+command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
