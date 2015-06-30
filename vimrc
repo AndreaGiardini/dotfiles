@@ -40,7 +40,7 @@ let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-k>"
 let g:UltiSnipsJumpBackwardTrigger="<s-c-j>"
 
-let g:UltiSnipsSnippetDirectories=['bundle/vim-snippets/snippets']
+let g:UltiSnipsSnippetDirectories=['bundle/vim-snippets/UltiSnips']
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
