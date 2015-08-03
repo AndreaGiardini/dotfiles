@@ -32,4 +32,6 @@ hardstatus string "%{= kb}[ %=%{w}%?%-Lw%?%{C}(%{W}%n*%f %t%?(%u)%?%{C})%{w}%?%+
 vbell off
 # Change screen binding to Ctrl + L
 escape ^La
+# Increase scroll buffer
+defscrollback 10000
 # End of file
