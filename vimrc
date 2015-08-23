@@ -34,6 +34,9 @@ Plugin 'honza/vim-snippets'
 " Latex livepreview
 Plugin 'xuhdev/vim-latex-live-preview'
 
+" Writing with Vim
+Plugin 'reedes/vim-pencil'
+
 " Trigger configuration. Do not use <tab> if you use
 " https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<c-k>"
@@ -106,3 +109,10 @@ match RedundantSpaces /\s\+$\| \+\ze\t/ "\ze sets end of match so only spaces hi
 set listchars=tab:>-,trail:.,extends:>
 
 command TrailSp :execute ':%s/\s\+$//'
+
+
+augroup pencil
+    autocmd!
+    autocmd FileType markdown,mkd,md call pencil#init()
+    autocmd FileType tex             call pencil#init()
+augroup END
